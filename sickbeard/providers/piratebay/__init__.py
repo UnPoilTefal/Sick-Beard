@@ -54,7 +54,7 @@ class ThePirateBayProvider(generic.TorrentProvider):
         
         self.proxy = ThePirateBayWebproxy() 
         
-        self.url = 'http://thepiratebay.se/'
+        self.url = 'https://pirateproxy.la/'
 
         self.searchurl = self.url+'search/%s/0/7/200'  # order by seed       
 
